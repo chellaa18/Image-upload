@@ -1,0 +1,22 @@
+
+
+.contents-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+  }
+  
+  .editor-container {
+    width: 80%; 
+    max-width: 600px;
+  
+    margin-top: 20px; 
+  }
+
+  .ck.ck-editor__editable_inline>:last-child {
+    margin-bottom: var(--ck-spacing-large);
+    height: 200px;
+}
+  
